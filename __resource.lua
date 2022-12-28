@@ -6,12 +6,12 @@ dependencies {
 
 client_script {
 	'@NativeUI/NativeUI.lua',
-	'Client/Preload.lua',
+	'Preload.lua',
 	'Config.lua',
 	'Categories.lua',
-	'Client/Client.lua',
+	'Client.lua',
 }
 
 server_script {
-	'Server/Server.lua',
+	'Server.lua',
 }
